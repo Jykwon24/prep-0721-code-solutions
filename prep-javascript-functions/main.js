@@ -42,3 +42,9 @@ function subtractTwoNumbers(x, y) {
 
 var subtractTwoNumbersResult = subtractTwoNumbers(22, 7);
 console.log('subtractTwoNumbers(22, 7):', subtractTwoNumbersResult);
+
+function getCircleCircumference(x) {
+  return 2 * (3.14159265359 * x);
+}
+var getCircleCircumferenceResult = getCircleCircumference(5);
+console.log('getCircleCircumference(5)', getCircleCircumferenceResult);
