@@ -35,3 +35,10 @@ function multiplyAndDivideBy5(x, y) {
 
 var multiplyAndDivideBy5Result = multiplyAndDivideBy5(35, 10);
 console.log('multiplyAndDivideBy5(35, 10):', multiplyAndDivideBy5Result);
+
+function subtractTwoNumbers(x, y) {
+  return x - y;
+}
+
+var subtractTwoNumbersResult = subtractTwoNumbers(22, 7);
+console.log('subtractTwoNumbers(22, 7):', subtractTwoNumbersResult);
