@@ -48,3 +48,10 @@ function getCircleCircumference(x) {
 }
 var getCircleCircumferenceResult = getCircleCircumference(5);
 console.log('getCircleCircumference(5)', getCircleCircumferenceResult);
+
+function getFullName(x, y) {
+  return x + ' ' + y;
+}
+
+var getFullNameResult = getFullName('Juan', 'Ramirez');
+console.log('Full Name (Juan, Ramirez):', getFullNameResult);
