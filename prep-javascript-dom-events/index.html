@@ -10,11 +10,9 @@
 <body>
   <button class="hello-world-btn">Hello World!</button>
   <script>
-    var DOMcontentLoaded = 'content loaded!';
-    document.addEventListener('DOMcontentLoaded', function () {
-
+    document.addEventListener('DOMContentLoaded', function () {
+      console.log('content loaded!');
     });
-    console.log('EventListen', DOMcontentLoaded);
   </script>
 </body>
 
